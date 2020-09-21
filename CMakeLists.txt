@@ -10,6 +10,7 @@ add_executable(
 
         main.cpp
         Controller/controller.cpp
+        Controller/people_manager.cpp
         Model/lecturer.cpp
         Model/person.cpp
         Model/student.cpp
@@ -19,7 +20,8 @@ add_executable(
         Model/Containers/student_container.cpp
         Model/Visitors/cashier.cpp
         Model/Utils/point.cpp
+        View/person_drawer.cpp
         View/view.cpp
-        Controller/people_manager.cpp Controller/people_manager.h View/person_drawer.cpp View/person_drawer.h)
+)
 
 target_link_libraries(lab1 "Comctl32.lib")
